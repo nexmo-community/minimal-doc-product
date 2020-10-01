@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   remote: https://rubygems.pkg.github.com/nexmo/
   specs:
     actioncable (6.0.3.3)
