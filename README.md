@@ -25,6 +25,16 @@ OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --d
 
 5. Navigate your web browser to `localhost:3000` to display the documentation landing page.
 
+## Setting up Heroku
+
+A pipeline is avialble in Heroku for `minimal-doc-product`.
+
+For your repo you'll need to create a new Heroku pipeline. A Heroku `app.json` file is included. The process is:
+
+1. In your GitHub repo, give admin access to the Automation team NexmoDev.
+2. In Heroku create a [new pipeline](https://devcenter.heroku.com/articles/pipelines).
+3. For your pipeline, enable Review Apps.
+
 ## See also
 
 * [Contribution Guide](https://developer.nexmo.com/contribute/overview)
