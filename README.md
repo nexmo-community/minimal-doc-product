@@ -34,6 +34,8 @@ For your repo you'll need to create a new Heroku pipeline. A Heroku `app.json` f
 1. In your GitHub repo, give admin access to the Automation team NexmoDev.
 2. In Heroku create a [new pipeline](https://devcenter.heroku.com/articles/pipelines).
 3. For your pipeline, enable Review Apps.
+4. Configure URL patterm to be `name-of-repo` plus PR number. For example: `minimal-doc-product-pr-123.herokuapp.com`.
+5. Set the app config variables.
 
 ## See also
 
