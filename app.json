@@ -1,6 +1,5 @@
 {
   "buildpacks": [
-    { "url": "https://github.com/Nexmo/heroku-buildpack-git-submodule" },
     { "url": "heroku/ruby" }
   ],
   "env": {
