@@ -39,5 +39,7 @@ For your repo you'll need to create a new Heroku pipeline. A Heroku `app.json` f
 
 ## See also
 
+Make sure you read the Station docs to find out how to configure your repo:
+
 * [Contribution Guide](https://developer.nexmo.com/contribute/overview)
 * [Station docs](https://github.com/Nexmo/station/blob/master/docs/index.md)
