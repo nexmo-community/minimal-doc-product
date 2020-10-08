@@ -13,24 +13,12 @@ page:
                   color: purple
                   name: 'Vlt-icon-message'
                 apis:
-                  - title: 'Messages API'
-                    path: 'api/messages-olympus'
-                    description: 'For SMS, MMS, Facebook, WhatsApp, Viber and much more: Messages API allows easy integration with multiple messaging platforms through a single integration. This API is currently in Beta, so expect some changes before it is production-ready.'
-                    badge:
-                      name: Beta
-                      color: green
-                  - title: 'Dispatch API'
-                    path: 'api/dispatch'
-                    description: 'Use the Dispatch API for a multichannel messaging solution with failover.'
-                    badge:
-                      name: Beta
-                      color: green
-                  - title: 'SMS API'
+                  - title: 'YOUR PRODUCT API'
                     path: 'api/sms'
-                    description: 'For applications that only need to send and/or receive SMS, the SMS API is our stable, recommended solution. The SMS API has extensive support in all our client libraries and lots of code examples and tutorials to help you along your way.'
+                    description: 'For applications that ...'
                   - title: 'External Accounts API'
                     path: 'api/external-accounts'
-                    description: 'Use this to manage accounts for the Messages and Dispatch APIs across all the various channels that we support.'
+                    description: 'Use this to do your cool stuff. Edit custom/landing_pages/api.yml to change this page.'
                     badge:
                       name: Beta
                       color: green

@@ -3,7 +3,7 @@ page:
     - column:
       - type: html
         html:
-          content: "<h1>SDKs and Tools</h1>"
+          content: "<h1>SDKs and Tools (edit 'custom/landing_pages/tools.yml' to change this page)</h1>"
   - row:
     - column:
       - type: html
