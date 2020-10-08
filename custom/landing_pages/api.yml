@@ -18,7 +18,7 @@ page:
                     description: 'For applications that ...'
                   - title: 'External Accounts API'
                     path: 'api/external-accounts'
-                    description: 'Use this to do your cool stuff.'
+                    description: 'Use this to do your cool stuff. Edit custom/landing_pages/api.yml to change this page.'
                     badge:
                       name: Beta
                       color: green
