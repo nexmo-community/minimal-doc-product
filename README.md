@@ -8,6 +8,8 @@ Minimal doc product is a small repo that is designed to give you an starting poi
 
 ## How to use
 
+### To simply run locally
+
 1. Make sure you have permissions for https://rubygems.pkg.github.com/nexmo. Instructions are [here](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages)
 2. Clone this repo.
 3. Change into cloned directory.
@@ -28,6 +30,12 @@ OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --d
 ```
 
 7. Navigate your web browser to `localhost:3000` to display the documentation landing page.
+
+### To use as the starting point for your own product
+
+If you want to use this repo as the starting point for your own doc product you can **fork** this repo on GitHub.
+
+> **NOTE:** It is recommended you periodically [check for changes](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/) to the upstream project to make sure you are aware of any fixes to this repository. 
 
 ## Setting up Heroku
 
