@@ -14,7 +14,7 @@ Minimal doc product is a small repo that is designed to give you an starting poi
 2. Clone this repo.
 3. Change into cloned directory.
 4. Check the `Gemfile` for the correct Ruby version.
-5. Run the correct version of Ruby, for example:
+5. Select the correct version of Ruby, for example:
 
 ``` sh
 rbenv 2.5.8
@@ -23,13 +23,15 @@ rbenv local 2.5.8
 
 > **NOTE:** This assumes you have `rbenv` installed. You can install `rbenv` on Mac with `brew install rbenv`.
 
-6. Now you are ready to run Station:
+6. Run `bundle install` to install your dependencies.
+
+7. Now you are ready to run Station:
 
 ``` sh
 OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --docs=`pwd`
 ```
 
-7. Navigate your web browser to `localhost:3000` to display the documentation landing page.
+8. Navigate your web browser to `localhost:3000` to display the documentation landing page.
 
 ### To use as the starting point for your own product
 
