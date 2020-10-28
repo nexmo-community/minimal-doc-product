@@ -10,11 +10,23 @@ Minimal doc product is a small repo that is designed to give you an starting poi
 
 ### To simply run locally
 
+`NOTE: Commands are to be executed on Linux, Mac, and Windows(using Powershell)`
+
 1. Make sure you have permissions for https://rubygems.pkg.github.com/nexmo. Instructions are [here](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages)
-2. Clone this repo.
-3. Change into cloned directory.
-4. Check the `Gemfile` for the correct Ruby version.
-5. Select the correct version of Ruby, for example:
+
+2. Clone the repo by running the command:
+
+```sh
+$ git clone https://github.com/nexmo-community/minimal-doc-product.git
+```
+
+3. Go inside the cloned directory by command:
+
+```sh
+$ cd minimal-doc-product
+```
+
+4. Check the `Gemfile` for the correct Ruby version and select the correct version, for example:
 
 ``` sh
 rbenv 2.5.8
@@ -25,7 +37,7 @@ rbenv local 2.5.8
 
 6. Run `bundle install` to install your dependencies.
 
-7. Now you are ready to run Station:
+7. Now, you are ready to run Station:
 
 ``` sh
 OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --docs=`pwd`
@@ -35,7 +47,7 @@ OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --d
 
 ### To use as the starting point for your own product
 
-If you want to use this repo as the starting point for your own doc product you can **fork** this repo on GitHub.
+If you want to use this repo as the starting point for your own doc product you can **fork** this repo on GitHub by clicking on the <kbd><b>Fork</b></kbd></a> button (Top-Right).
 
 > **NOTE:** It is recommended you periodically [check for changes](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/) to the upstream project to make sure you are aware of any fixes to this repository. 
 
