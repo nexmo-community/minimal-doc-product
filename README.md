@@ -10,23 +10,21 @@ Minimal doc product is a small repo that is designed to give you an starting poi
 
 ### To simply run locally
 
-`NOTE: Commands are to be executed on Linux, Mac, and Windows(using Powershell)`
+> **NOTE:** Commands are to be executed in a suitable shell on Linux, Mac, or Windows (using Powershell)
 
-1. Make sure you have permissions for https://rubygems.pkg.github.com/nexmo. Instructions are [here](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-rubygems-for-use-with-github-packages)
-
-2. Clone the repo by running the command:
+1. Clone the repo by running the command:
 
 ```sh
 $ git clone https://github.com/nexmo-community/minimal-doc-product.git
 ```
 
-3. Go inside the cloned directory by command:
+2. Navigate to the cloned directory by using the command:
 
 ```sh
 $ cd minimal-doc-product
 ```
 
-4. Check the `Gemfile` for the correct Ruby version and select the correct version, for example:
+3. Check the `Gemfile` for the correct Ruby version and select the correct version, for example:
 
 ``` sh
 rbenv 2.5.8
@@ -35,15 +33,15 @@ rbenv local 2.5.8
 
 > **NOTE:** This assumes you have `rbenv` installed. You can install `rbenv` on Mac with `brew install rbenv`.
 
-6. Run `bundle install` to install your dependencies.
+4. Run `bundle install` to install your dependencies.
 
-7. Now, you are ready to run Station:
+5. Now, you are ready to run Station:
 
 ``` sh
 OAS_PATH="`pwd`/_open_api/api_specs/definitions" bundle exec nexmo-developer --docs=`pwd`
 ```
 
-8. Navigate your web browser to `localhost:3000` to display the documentation landing page.
+6. Navigate your web browser to `localhost:3000` to display the documentation landing page.
 
 ### To use as the starting point for your own product
 
