@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.5.8"
+ruby "2.7.2"
 source "https://rubygems.pkg.github.com/nexmo" do
-  gem "nexmo-developer"
+  gem "station"
 end

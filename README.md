@@ -27,8 +27,8 @@ $ cd minimal-doc-product
 3. Check the `Gemfile` for the correct Ruby version and select the correct version, for example:
 
 ``` sh
-rbenv 2.5.8
-rbenv local 2.5.8
+rbenv 2.7.2
+rbenv local 2.7.2
 ```
 
 > **NOTE:** This assumes you have `rbenv` installed. You can install `rbenv` on Mac with `brew install rbenv`.
